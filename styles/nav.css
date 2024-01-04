@@ -1,0 +1,23 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: antiquewhite;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* nested menu styles */
+nav li .fahim{
+    display: none;
+    position: absolute;
+}
+nav li:hover .fahim{
+    display: block;
+}

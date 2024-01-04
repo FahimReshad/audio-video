@@ -1,8 +1,8 @@
-nav  ul  li{
+nav > ul  >li{
     display: inline;
-    margin-right: 100px;
+    margin-right: 20px;
 }
-nav  li  a{
+nav  li > a{
     text-decoration: none;
 
 
